@@ -1,6 +1,14 @@
+import { Header } from "./components/Header.jsx"
+import { Card } from "./components/Card.jsx"
+
 function App() {
     return (
-        <h1>Big Pug Travel Blog</h1>
+        <>
+            <Header />
+            <div>
+                <Card />
+            </div>
+        </>
     )
 }
 
